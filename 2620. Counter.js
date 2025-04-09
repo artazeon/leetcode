@@ -3,7 +3,9 @@
  * @return {Function} counter
  */
 
-var createCounter = (n) => () => n++
+var createCounter = (n) => {
+  ;() => n++
+}
 
 const counter = createCounter(10)
 
